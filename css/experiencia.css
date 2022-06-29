@@ -1,0 +1,60 @@
+.experiencia{
+	background-color: var(--bg-primeiro);
+}
+
+.experiencia__titulo{
+	font-size: var(--fonte-titulo);
+	font-weight: var(--fonte-bold);
+	text-align: center;
+	margin-bottom: 2rem;
+}
+
+.experiencia__boxes{
+	display: flex;
+	flex-direction: column;
+}
+
+.experiencia__img{
+	width: 100%;
+	opacity: .8;
+	min-height: 180px;
+}
+
+.experiencia__legenda1{
+	font-size: 1rem;
+	line-height: 1.5rem;
+	font-weight: 700;
+}
+
+.experiencia__legenda2{
+	font-size: .9rem;
+	line-height: 1.5rem;
+	font-weight: 500;
+}
+
+.experiencia__btns{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 2rem;
+}
+
+.btn-rep{
+	flex-grow: 1;
+	line-height: 1.5rem;
+	font-size: .9rem;
+	font-family: 'Raleway', sans-serif;
+	background-color: var(--bg-primeiro);
+	color: #2a7ae4;
+	border: 1px solid #2a7ae4;
+}
+
+.btn-pro{
+	flex-grow: 1;
+	line-height: 1.5rem;
+	font-size: .9rem;
+	font-family: 'Raleway', sans-serif;	
+	background-color:#2a7ae4;
+	color: #fff;
+	border: none;
+}
+

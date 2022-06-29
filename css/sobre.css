@@ -1,0 +1,13 @@
+.sobre{
+	background-color: var(--bg-segundo);
+}
+
+.sobre__titulo{
+	font-size: var(--fonte-titulo);
+	font-weight: var(--fonte-bold);
+	margin-bottom: 1rem;
+}
+
+.sobre__paragrafo{
+	line-height: var(--altura-linha);
+}

@@ -1,0 +1,46 @@
+.contato{
+	background-color: var(--bg-segundo);
+}
+
+.contato__titulo{
+	font-size: var(--fonte-titulo);
+	font-weight: var(--fonte-bold);
+	margin-bottom: .5rem;
+}
+
+.contato__info{
+	display: flex;
+	flex-direction: column;
+}
+
+.contato__paragrafo{
+	line-height: var(--altura-linha);
+	font-weight: 500;
+}
+
+.contato__formulario{
+	display: flex;
+	flex-direction: column;
+
+}
+
+.contato__input{
+	margin-bottom: 1rem;
+	border: 1px outset #fff;
+	font-family: var(--fonte-family);
+	font-size: 1rem;
+}
+
+.contato__botao{
+	background-color:var(--bg-segundo);
+	color: #2a7ae4;
+	font-weight: 900;
+	font-size: 1rem;
+	padding: .5rem 0;
+	width: 70%;
+	margin: .5rem auto 0;
+	border: 3px inset #2a7ae4;
+	border-radius: 50px;
+	font-family: var(--fonte-family);
+	letter-spacing: 7px;
+}

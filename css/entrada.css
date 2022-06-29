@@ -5,16 +5,18 @@
 }
 
 .entrada__titulo{
-	font-size: 1.5rem;
-	font-weight: 700;
+	font-size: var(--fonte-titulo);
+	font-weight: var(--fonte-bold);
 }
 
 .entrada__foto{
 	margin-bottom: 1rem;
+	width: 40%;
 }
 .entrada__foto img{
-	width: 40%;
+	width: 100%;
 	border-radius: 50%;
+	max-width: 200px;
 }
 
 .entrada__titulo{
@@ -23,6 +25,7 @@
 
 .entrada__paragrafo{
 	margin-bottom: 1rem;
+	line-height: var(--altura-linha);
 }
 
 .entrada__nav{
