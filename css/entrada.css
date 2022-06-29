@@ -1,0 +1,41 @@
+.entrada{
+	background-color: var(--bg-primeiro);
+	display: flex;
+	flex-direction: column-reverse;
+}
+
+.entrada__titulo{
+	font-size: 1.5rem;
+	font-weight: 700;
+}
+
+.entrada__foto{
+	margin-bottom: 1rem;
+}
+.entrada__foto img{
+	width: 40%;
+	border-radius: 50%;
+}
+
+.entrada__titulo{
+	margin-bottom: 1rem;
+}
+
+.entrada__paragrafo{
+	margin-bottom: 1rem;
+}
+
+.entrada__nav{
+	width: 100%;
+}
+
+.entrada__nav__itens{
+	display: flex;
+	justify-content: space-between;
+	font-size: .9rem;
+}
+
+.entrada__link{
+	margin-right: .1rem;
+	font-weight: 700;
+}

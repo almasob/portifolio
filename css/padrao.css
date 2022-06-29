@@ -1,0 +1,19 @@
+:root{
+	--bg-primeiro: #E5E5E5;
+	--bg-segundo: #EAF2FD;
+	font-family: 'Raleway', sans-serif;
+	color: #464646;
+}
+
+.container-laterais{
+	padding:1rem;
+}
+
+.container-cimabaixo{
+	padding: 1rem;
+}
+
+.cabecalho__link,.entrada__link{
+	text-decoration: none;
+	color: #464646;
+}

@@ -1,0 +1,35 @@
+.cabecalho{
+	background-color: var(--bg-primeiro);
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.cabecalho__principal{
+	display: flex;
+	align-items: center;
+}
+
+.cabecalho__titulo{
+	font-size: 1rem;
+	margin-left: .3rem;
+	font-weight: 700;
+}
+.cabecalho__logo{
+	width: 1rem;
+	height: 1rem;
+}
+
+
+.cabecalho__menu{
+	font-size: .9rem;
+	display: flex;
+}
+
+.c_menu__sobre,
+.c_menu__skills,
+.c_menu__hobbies,
+.c_menu__formacao,
+.c_menu__projetos{
+	display: none;
+}
