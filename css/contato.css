@@ -1,5 +1,8 @@
 .contato{
 	background-color: var(--bg-segundo);
+	display: flex;
+
+
 }
 
 .contato__titulo{
@@ -11,6 +14,7 @@
 .contato__info{
 	display: flex;
 	flex-direction: column;
+	width: 100%;
 }
 
 .contato__paragrafo{
@@ -44,4 +48,18 @@
 	font-family: var(--fonte-family);
 	letter-spacing: 7px;
 	max-width: 320px;
+}
+
+@media screen and (min-width: 1024px){
+	.contato{
+		background-image: url("../assets/bg-contato1.png");
+		background-repeat: no-repeat;
+		background-size: 48% 100%;
+
+		justify-content: flex-end;
+	}
+
+	.contato__info{
+		width: 52%;
+	}
 }

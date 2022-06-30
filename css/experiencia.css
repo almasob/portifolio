@@ -75,3 +75,33 @@
 	}	
 
 }
+
+@media screen and (min-width: 1024px){
+	.experiencia__box{
+		display: flex;
+		align-items: center;
+
+	}
+	.experiencia__box:nth-child(2n+1){
+		flex-direction: row-reverse;
+	}
+
+	.experiencia__boxes{
+		gap: 4rem;
+	}
+
+	.experiencia__box:nth-child(2n) ul{
+		padding-left: 3rem;
+	}
+
+	.experiencia__legenda1{
+		font-size: 1.3rem;
+	}
+
+	.experiencia__legenda2{
+		font-size: 1.1rem;
+	}
+}
+		
+
+

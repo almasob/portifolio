@@ -41,3 +41,9 @@
 		width: 30%;
 	}
 }
+
+@media screen and (min-width: 1024px){
+	.hobbies__box{
+		width: 15%;
+	}
+}

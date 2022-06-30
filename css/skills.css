@@ -42,3 +42,9 @@
 	}
 }
 
+@media screen and (min-width: 1024px){
+	.skills__box{
+		width: 15%;
+	}
+}
+
