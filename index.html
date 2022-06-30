@@ -29,25 +29,25 @@
 		</div>
 		<nav class="cabecalho__nav">
 			<ul class="cabecalho__menu">
-				<li class="c_menu__sobre"><a class="cabecalho__link" href="#">Sobre mim</a></li>
-				<li class="c_menu__skills"><a class="cabecalho__link" href="#">Skills</a></li>
-				<li class="c_menu__hobbies"><a class="cabecalho__link" href="#">Hobbies</a></li>
-				<li class="c_menu__formacao"><a class="cabecalho__link" href="#">Formação</a></li>
-				<li class="c_menu__projetos"><a class="cabecalho__link" href="#">Projetos</a></li>
-				<li class="c_menu__contato"><a class="cabecalho__link" href="#">Contato</a></li>
+				<li class="c_menu__sobre"><a class="cabecalho__link" href="#sobre">Sobre mim</a></li>
+				<li class="c_menu__skills"><a class="cabecalho__link" href="#skills">Skills</a></li>
+				<li class="c_menu__hobbies"><a class="cabecalho__link" href="#hobbies">Hobbies</a></li>
+				<li class="c_menu__formacao"><a class="cabecalho__link" href="#formacao">Formação</a></li>
+				<li class="c_menu__projetos"><a class="cabecalho__link" href="#experiencia">Projetos</a></li>
+				<li class="c_menu__contato"><a class="cabecalho__link" href="#contato">Contato</a></li>
 			</ul>
 		</nav>
 	</header>
 	<main>
-		<section class="entrada container">
+		<section class="entrada container" id="entrada">
 			<div class="entrada__informacoes">
 				<h1 class="entrada__titulo">Olá, meu nome é Allan Machado Sobral e sou um desenvolvedor/programador em formação</h1>
 				<p class="entrada__paragrafo">Atualmente sou estudante, e participo do programa Oracle ONE na Alura.</p>
 				<nav class="entrada__nav">
 					<ul class="entrada__nav__itens">
-						<li class="entrada__item"><a class="entrada__link" href="#">Github</a><img src="assets/arrow.png"></li>
-						<li class="entrada__item"><a class="entrada__link" href="#">Linkedin</a><img src="assets/arrow.png"></li>
-						<li class="entrada__item"><a class="entrada__link" href="#">Currículo</a><img src="assets/arrow.png"></li>
+						<li class="entrada__item"><a target="_blank" class="entrada__link" href="https://github.com/almasob">Github</a><img src="assets/arrow.png"></li>
+						<li class="entrada__item"><a target="_blank" class="entrada__link" href="https://www.linkedin.com/in/allanmsobral/">Linkedin</a><img src="assets/arrow.png"></li>
+						<li class="entrada__item"><a target="_blank" class="entrada__link" href="assets/Curriculo-06-22.pdf">Currículo</a><img src="assets/arrow.png"></li>
 					</ul>
 				</nav>
 			</div>
@@ -55,7 +55,7 @@
 				<img src="assets/perfil.jpg" alt="Foto de Perfil do Allan">
 			</div>
 		</section>
-		<section class="sobre container">
+		<section class="sobre container" id="sobre">
 			<h2 class="sobre__titulo">Sobre mim</h2>
 			<p class="sobre__paragrafo">
 				Estudante de programação, busco a oportunidade de demonstrar minha capacidade e iniciar no mundo da tecnologia.
@@ -69,7 +69,7 @@
 			</p>
 		</section>
 
-		<section class="skills container">
+		<section class="skills container" id="skills">
 			<h1 class="skills__titulo">Skills</h1>
 			<div class="skills__itens">
 				<div class="skills__box">
@@ -110,7 +110,7 @@
 				</div>
 			</div>
 		</section>
-		<section class="hobbies container">
+		<section class="hobbies container" id="hobbies">
 			<h1 class="hobbies__titulo">Hobbies</h1>
 			<div class="hobbies__itens">
 				<div class="hobbies__box">
@@ -151,7 +151,7 @@
 				</div>
 			</div>
 		</section>
-		<section class="formacao container">
+		<section class="formacao container" id="formacao">
 			<h2 class="formacao__titulo">Formação Academica</h2>
 			<div class="formacao__itens">
 				<div class="formacao__box">
@@ -170,7 +170,7 @@
 				</div>
 			</div>
 		</section>
-		<section class="experiencia container">
+		<section class="experiencia container" id="experiencia">
 			<h1 class="experiencia__titulo">Experiência Profissional</h1>
 			<div class="experiencia__boxes">
 				<div class="experiencia__box">
@@ -245,15 +245,15 @@
 				</div>
 			</div>
 		</section>
-		<section class="contato container">
+		<section class="contato container" id="contato">
 			<div class="contato__info">
 				<h1 class="contato__titulo">Contato</h1>
 				<p class="contato__paragrafo">Quer entrar em contato comigo? Preencha o formulário ao lado e entrarei em contato o mais rápido possível.</p>
-				<form class="contato__formulario" action="">
-					<input class="contato__input" type="text" placeholder="Nome">
-					<input class="contato__input" type="email" placeholder="Email">
-					<input class="contato__input" type="text" placeholder="Assunto">
-					<textarea class="contato__input" name="" id="" cols="30" rows="5" placeholder="Mensagem"></textarea>
+				<form class="contato__formulario" action="mailto:al.masob99@gmail.com" enctype="text/plan">
+					<input class="contato__input" type="text" placeholder="Nome" required>
+					<input class="contato__input" type="email" placeholder="Email" required>
+					<input class="contato__input" type="text" placeholder="Assunto" required>
+					<textarea class="contato__input" name="" id="" cols="30" rows="10" placeholder="Mensagem" required></textarea>
 					<button class="contato__botao">Enviar</button>
 				</form>
 			</div>

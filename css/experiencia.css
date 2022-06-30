@@ -101,7 +101,14 @@
 	.experiencia__legenda2{
 		font-size: 1.1rem;
 	}
+
+	.experiencia__titulo{
+	font-size: 1.8rem;
+	}
+
+	.experiencia__img{
+		max-width: 900px;
+	}
 }
-		
 
 

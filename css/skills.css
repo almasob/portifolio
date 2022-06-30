@@ -46,5 +46,9 @@
 	.skills__box{
 		width: 15%;
 	}
+
+	.skills__titulo{
+		font-size: 1.8rem;
+	}
 }
 

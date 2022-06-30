@@ -12,3 +12,21 @@
 	line-height: var(--altura-linha);
 	font-weight: 500;
 }
+
+@media screen and (min-width: 768px){
+	.sobre__paragrafo{
+		max-width: 70%;
+	}
+
+
+@media screen and (min-width: 1024px){
+	.sobre__paragrafo{
+		line-height: 1.5rem;
+		font-size: 1.1rem;
+
+	}
+
+	.sobre__titulo{
+	font-size: 1.8rem;
+}
+}

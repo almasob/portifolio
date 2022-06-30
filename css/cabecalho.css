@@ -11,7 +11,7 @@
 }
 
 .cabecalho__titulo{
-	font-size: 1rem;
+	font-size: 1.3rem;
 	margin-left: .3rem;
 	font-weight: 700;
 }
@@ -46,8 +46,8 @@
 	}
 
 	.cabecalho{
-		padding-left: 3rem;
-		padding-right: 3rem;
+		padding-left: 6rem;
+		padding-right: 6rem;
 	}
 
 	.cabecalho__titulo{
@@ -60,7 +60,7 @@
 	}
 
 	.cabecalho__menu{
-		font-size: 1rem;
+		font-size: 1.1rem;
 		gap: 1.5rem;
 	}
 

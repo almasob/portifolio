@@ -37,6 +37,7 @@
 	display: flex;
 	justify-content: space-between;
 	font-size: .9rem;
+	letter-spacing: 3px;
 }
 
 .entrada__link{
@@ -62,9 +63,36 @@
 
 	.entrada__nav__itens{
 		justify-content: normal;
+		font-size: 1rem;
+	}
+
+	.entrada__item img{
+		width: 10px;
 	}
 
 	.entrada__item{
 		padding-right: 3rem;
+	}
+}
+
+@media screen and (min-width: 1024px){
+	.entrada__nav{
+		margin-top: 5rem;
+	}
+
+	.entrada__nav__itens{
+		font-size: 1.3rem;
+	}
+
+	.entrada__item img{
+		width: 12px;
+	}
+
+	.entrada__titulo{
+		font-size: 2rem;
+	}
+
+	.entrada__paragrafo{
+		font-size: 1.3rem;
 	}
 }

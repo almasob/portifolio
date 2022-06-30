@@ -54,3 +54,17 @@
 	}
 
 }
+
+@media screen and (min-width:  1024px){
+	.formacao__titulo{
+	font-size: 1.8rem;
+	}
+
+	.formacao__legenda1{
+	font-size: 1.2rem;
+}
+
+	.formacao__legenda2{
+	font-size: 1.1rem;
+	}
+}

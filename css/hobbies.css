@@ -46,4 +46,7 @@
 	.hobbies__box{
 		width: 15%;
 	}
+	.hobbies__titulo{
+		font-size: 1.8rem;
+	}
 }

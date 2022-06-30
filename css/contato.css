@@ -37,8 +37,8 @@
 }
 
 .contato__botao{
-	background-color:var(--bg-segundo);
-	color: #2a7ae4;
+	background-color:#0f4da3;
+	color: #fff;
 	font-weight: 900;
 	font-size: 1rem;
 	padding: .5rem 0;
@@ -47,19 +47,39 @@
 	border-radius: 50px;
 	font-family: var(--fonte-family);
 	letter-spacing: 7px;
-	max-width: 320px;
+	max-width: 380px;
 }
 
 @media screen and (min-width: 1024px){
 	.contato{
 		background-image: url("../assets/bg-contato1.png");
 		background-repeat: no-repeat;
-		background-size: 48% 100%;
-
+		background-size: 50% 80%;
+		background-position: center left;
 		justify-content: flex-end;
+		padding-top: 4rem;
+	}
+
+	.contato__titulo{
+	font-size: 1.8rem;
+	}	
+
+	.contato__paragrafo{
+		font-size: 1.1rem;
 	}
 
 	.contato__info{
 		width: 52%;
 	}
+
+	.contato__formulario input{
+		height: 50px;
+	}
+}
+
+@media screen and (min-width: 1400px){
+		.contato{
+			background-size: 50% 100%;
+		}
+
 }

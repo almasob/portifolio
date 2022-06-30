@@ -28,3 +28,10 @@ p{
 .icone{
 	width: 28px;
 }
+
+@media screen and (min-width: 1024px){
+	.container{
+		padding-left: 6rem;
+		padding-right: 6rem;
+	}
+}
