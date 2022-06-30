@@ -15,6 +15,7 @@
 	display: flex;
 	flex-wrap: wrap;
 	gap: 1rem;
+	justify-content: center;
 }
 
 .hobbies__box{
@@ -26,10 +27,17 @@
 	font-weight: 700;
 	padding: 1rem ;
 	width: calc(50% - 1rem);
+	max-width: 350px;
 	height: 100px;
 
 }
 
 .hobbies__img{
 	margin-bottom: .5rem;
+}
+
+@media screen and (min-width: 768px){
+	.hobbies__box{
+		width: 30%;
+	}
 }

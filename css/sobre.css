@@ -10,4 +10,5 @@
 
 .sobre__paragrafo{
 	line-height: var(--altura-linha);
+	font-weight: 500;
 }

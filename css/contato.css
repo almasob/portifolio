@@ -28,7 +28,8 @@
 	margin-bottom: 1rem;
 	border: 1px outset #fff;
 	font-family: var(--fonte-family);
-	font-size: 1rem;
+	font-size: 1.3rem;
+	line-height: 1.9rem;
 }
 
 .contato__botao{
@@ -37,10 +38,10 @@
 	font-weight: 900;
 	font-size: 1rem;
 	padding: .5rem 0;
-	width: 70%;
-	margin: .5rem auto 0;
+	width: 50%;
 	border: 3px inset #2a7ae4;
 	border-radius: 50px;
 	font-family: var(--fonte-family);
 	letter-spacing: 7px;
+	max-width: 320px;
 }

@@ -14,10 +14,17 @@
 	flex-direction: column;
 }
 
+.experiencia__div__img{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
 .experiencia__img{
 	width: 100%;
 	opacity: .8;
 	min-height: 180px;
+
 }
 
 .experiencia__legenda1{
@@ -34,27 +41,37 @@
 
 .experiencia__btns{
 	display: flex;
-	justify-content: space-between;
-	margin-bottom: 2rem;
+	margin-bottom: 2.5rem;
+	gap: 1rem;
+
 }
 
 .btn-rep{
-	flex-grow: 1;
 	line-height: 1.5rem;
 	font-size: .9rem;
 	font-family: 'Raleway', sans-serif;
 	background-color: var(--bg-primeiro);
 	color: #2a7ae4;
 	border: 1px solid #2a7ae4;
+	width: 40%;
+	max-width: 320px;
 }
 
 .btn-pro{
-	flex-grow: 1;
 	line-height: 1.5rem;
 	font-size: .9rem;
 	font-family: 'Raleway', sans-serif;	
 	background-color:#2a7ae4;
 	color: #fff;
 	border: none;
+	width: 40%;
+	max-width: 320px;
 }
 
+
+@media screen and (min-width: 768px){
+	.experiencia__btns{
+		margin-bottom: 4rem;
+	}	
+
+}

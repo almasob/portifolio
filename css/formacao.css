@@ -13,12 +13,14 @@
 
 .formacao__itens{
 	display: flex;
-	flex-wrap: wrap;
+	flex-direction: column;
+	align-items: center;
 	justify-content: center;
 }
 
 .formacao__box{
 	width: 90%;
+	max-width: 350px;
 
 }
 
@@ -30,7 +32,7 @@
 .formacao__logo{
 	width: 100%;
 	height: 150px;
-	border-radius: 50%;
+	border-radius: 30%;
 }
 
 .formacao__legenda1{
@@ -43,4 +45,12 @@
 	font-size: .9rem;
 	line-height: 1.5rem;
 	font-weight: 500;
+}
+
+@media screen and (min-width: 768px){
+	.formacao__itens{
+		flex-direction: row;
+		gap: 5%;
+	}
+
 }
