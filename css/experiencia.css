@@ -14,6 +14,7 @@
 	flex-direction: column;
 }
 
+
 .experiencia__div__img{
 	width: 100%;
 	display: flex;
@@ -90,9 +91,6 @@
 		gap: 4rem;
 	}
 
-	.experiencia__box:nth-child(2n) ul{
-		padding-left: 3rem;
-	}
 
 	.experiencia__legenda1{
 		font-size: 1.3rem;
@@ -106,8 +104,19 @@
 	font-size: 1.8rem;
 	}
 
-	.experiencia__img{
+/*	.experiencia__img{
 		max-width: 900px;
+	}*/
+
+	.experiencia__lista{
+		width: 30%;
+	}
+	.experiencia__div__img{
+		width: 70%;
+	}
+
+	.experiencia__box{
+		gap: 1rem;
 	}
 }
 
