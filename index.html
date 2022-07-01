@@ -181,8 +181,8 @@
 							<li class="experiencia__legenda1">Calculadora de Gorjetas</li>
 							<li class="experiencia__legenda2">Mini Curso - Programador Viking - HTML/CSS/JAVASCRIPT</li>
 							<li class="experiencia__btns">
-								<button class="btn-rep">Repositório</button>
-								<button class="btn-pro">Ver projeto</button>
+								<button onclick="abrirSite('https://github.com/almasob/CalculadoraDeGorjetas')" class="btn-rep">Repositório</button>
+								<button onclick="abrirSite('https://almasob.github.io/CalculadoraDeGorjetas/')" class="btn-pro">Ver projeto</button>
 							</li>
 						</ul>
 				</div>
@@ -194,8 +194,8 @@
 							<li class="experiencia__legenda1">Jogo da Forca</li>
 							<li class="experiencia__legenda2">Oracle ONE- Alura - HTML/CSS/JAVASCRIPT</li>
 							<li class="experiencia__btns">
-								<button class="btn-rep">Repositório</button>
-								<button class="btn-pro">Ver projeto</button>
+								<button onclick="abrirSite('https://github.com/almasob/JogoDaForca')" class="btn-rep">Repositório</button>
+								<button onclick="abrirSite('https://almasob.github.io/JogoDaForca/')" class="btn-pro">Ver projeto</button>
 							</li>
 						</ul>
 				</div>
@@ -207,8 +207,8 @@
 							<li class="experiencia__legenda1">(De)Codificador</li>
 							<li class="experiencia__legenda2">Oracle ONE- Alura - HTML/CSS/JAVASCRIPT</li>
 							<li class="experiencia__btns">
-								<button class="btn-rep">Repositório</button>
-								<button class="btn-pro">Ver projeto</button>
+								<button onclick="abrirSite('https://github.com/almasob/Codificador')" class="btn-rep">Repositório</button>
+								<button onclick="abrirSite('https://almasob.github.io/Codificador/')" class="btn-pro">Ver projeto</button>
 							</li>
 						</ul>
 				</div>
@@ -220,8 +220,8 @@
 							<li class="experiencia__legenda1">Contador</li>
 							<li class="experiencia__legenda2">Treinando minhas habilidades - HTML/CSS/JAVASCRIPT</li>
 							<li class="experiencia__btns">
-								<button class="btn-rep">Repositório</button>
-								<button class="btn-pro">Ver projeto</button>
+								<button onclick="abrirSite('https://github.com/almasob/Contador')" class="btn-rep">Repositório</button>
+								<button onclick="abrirSite('https://almasob.github.io/Contador/')" class="btn-pro">Ver projeto</button>
 							</li>
 						</ul>
 				</div>
@@ -233,8 +233,8 @@
 							<li class="experiencia__legenda1">Brincando com background</li>
 							<li class="experiencia__legenda2">Treinando minhas habilidades - HTML/CSS/JAVASCRIPT</li>
 							<li class="experiencia__btns">
-								<button class="btn-rep">Repositório</button>
-								<button class="btn-pro">Ver projeto</button>
+								<button onclick="abrirSite('https://github.com/almasob/BrincandoComBackground')" class="btn-rep">Repositório</button>
+								<button onclick="abrirSite('https://almasob.github.io/BrincandoComBackground/')" class="btn-pro">Ver projeto</button>
 							</li>
 						</ul>
 				</div>
@@ -244,11 +244,11 @@
 			<div class="contato__info">
 				<h1 class="contato__titulo">Contato</h1>
 				<p class="contato__paragrafo">Quer entrar em contato comigo? Preencha o formulário ao lado e entrarei em contato o mais rápido possível.</p>
-				<form class="contato__formulario" action="mailto:al.masob99@gmail.com" enctype="text/plan">
-					<input class="contato__input" type="text" placeholder="Nome" required>
-					<input class="contato__input" type="email" placeholder="Email" required>
-					<input class="contato__input" type="text" placeholder="Assunto" required>
-					<textarea class="contato__input" name="" id="" cols="30" rows="10" placeholder="Mensagem" required></textarea>
+				<form class="contato__formulario" action="https://formsubmit.co/ al.masob99@gmail.com " method="POST">
+					<input class="contato__input" name="Nome" type="text" placeholder="Nome" required>
+					<input class="contato__input" name="Email" type="email" placeholder="Email" required>
+					<input class="contato__input" name="Assunto" type="text" placeholder="Assunto" required>
+					<textarea class="contato__input" name="Mensagem" id="" cols="30" rows="10" placeholder="Mensagem" required></textarea>
 					<button class="contato__botao">Enviar</button>
 				</form>
 			</div>
@@ -257,5 +257,7 @@
 	<footer>
 			<p class="copyright"> &copy; Copyright Allan Machado Sobral - 2022</p>
 	</footer>
+	<script type="text/javascript" src="script.js"></script>
 </body>
+
 </html>
