@@ -9,6 +9,7 @@
 
 	font-family: var(--fonte-family);
 	color: #464646;
+	scroll-behavior: smooth;
 }
 
 .container{
@@ -27,6 +28,10 @@ p{
 
 .icone{
 	width: 28px;
+}
+
+button{
+	cursor: pointer;
 }
 
 @media screen and (min-width: 1024px){

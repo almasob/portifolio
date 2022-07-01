@@ -104,10 +104,6 @@
 	font-size: 1.8rem;
 	}
 
-/*	.experiencia__img{
-		max-width: 900px;
-	}*/
-
 	.experiencia__lista{
 		width: 30%;
 	}
@@ -117,6 +113,11 @@
 
 	.experiencia__box{
 		gap: 1rem;
+	}
+
+	.btn-pro, .btn-rep{
+		font-weight: 900;
+		line-height: 2rem;
 	}
 }
 
