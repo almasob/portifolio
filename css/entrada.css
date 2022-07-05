@@ -7,6 +7,7 @@
 .entrada__titulo{
 	font-size: var(--fonte-titulo);
 	font-weight: var(--fonte-bold);
+	margin-bottom: 1rem;
 }
 
 .entrada__foto{
@@ -17,11 +18,7 @@
 .entrada__foto img{
 	width: 100%;
 	border-radius: 30%;
-	max-width: 200px;
-}
-
-.entrada__titulo{
-	margin-bottom: 1rem;
+	max-width: 300px;
 }
 
 .entrada__paragrafo{
@@ -58,7 +55,7 @@
 	}
 
 	.entrada__foto img{
-		max-width: 300px;
+		max-width: 400px;
 	}
 
 	.entrada__nav__itens{
