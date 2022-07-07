@@ -1,13 +1,15 @@
-##Portifolio Profissional
+<h1>Portifólio Profissional</h1>
 
-Seja bem vindo!
-Este projeto contém todas as informações necessárias sobre mim, e como entrar em contato.
-Além disso, contém também:
+<p>Seja bem vindo!</p>
+<p>Este projeto contém todas as informações necessárias sobre mim, e como entrar em contato.</p>
+<p>Além disso, contém também:</p>
 
--Meu currículo
--Projetos concluídos
--Formação acadêmica
--Skills
--Hobbies
+<ul>
+<li>Meu currículo</li>
+<li>Projetos concluídos</li>
+<li>Formação acadêmica</li>
+<li>Skills</li>
+<li>Hobbies</li>
+</ul>
 
-Espero que goste, até mais!
+<p>Espero que goste, até mais!<p/>
