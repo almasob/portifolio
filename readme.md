@@ -2,7 +2,7 @@
 
 <h2>Status: Concluído</h2>
 <p>Data de conclusão: 30/06/2022</p>
-<p>Ultima atualização: 07/07/2022</p>
+<p>Ultima atualização: 02/02/2023</p>
 
 <h2>Descrição</h2>
 <p>Este é o meu primeiro portifólio profissional, onde é possível conhecer a mim e aos meus projetos.</p>
